@@ -236,11 +236,11 @@ main section h2::before {
 }
 
 #site-header nav {
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 8px 16px;
     margin: 0 4px;
     border-radius: 4px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 input::placeholder,
@@ -290,10 +290,18 @@ textarea::placeholder {
     position:relative;
 }
 
-nav ul li {
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/*nav ul li {
     display: inline-block;
     text-align: center;
-}
+}*/
 
 table {
     width: 100%;
