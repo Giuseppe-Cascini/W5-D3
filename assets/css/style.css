@@ -236,9 +236,7 @@ main section h2::before {
 }
 
 #site-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: inline-block;
     padding: 8px 16px;
     margin: 0 4px;
     border-radius: 4px;
