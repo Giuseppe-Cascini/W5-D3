@@ -296,8 +296,16 @@ textarea::placeholder {
     right:0;
 
 }
+
+.contenitoreProgetti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
 .project {
     position:relative;
+    flex: 1 1 260px;
 }
 
 nav ul {
